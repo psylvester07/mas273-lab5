@@ -123,6 +123,10 @@ public class ActFragment extends Fragment {
             throw new RuntimeException(e);
         }
 
+        if( act.getScenes().size() == 0){
+            binding.textViewOne.setText("No scenes in this Act");
+        }
+
         int counter = 1;
         for( Scene scene: act.getScenes()){
             String scenes = scene.toString();

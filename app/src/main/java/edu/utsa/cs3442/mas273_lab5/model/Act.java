@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Represents an Act which contains multiple scenes from a script.
- * An Act is characterized by its number and a collection of scenes.
+ * The Act class contains multiple scenes a user/cast is part of.
+ * It is characterized by its number and a collection of scenes.
  */
 public class Act {
     private int actNumber;
